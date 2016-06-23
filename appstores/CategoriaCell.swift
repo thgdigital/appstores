@@ -199,7 +199,7 @@ class AppCell: UICollectionViewCell {
         addSubview(nameLabel)
         addSubview(categoriaLabel)
         addSubview(precoLabel)
-    imageView.frame = CGRectMake(0, 0, frame.width, frame.width)
+        imageView.frame = CGRectMake(0, 0, frame.width, frame.width)
     
     }
 }
